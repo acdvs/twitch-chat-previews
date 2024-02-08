@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #1a1c22;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, div, input {
+  color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+p, span, div, input {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 11pt;
+  margin-bottom: 0;
+}
+
+input {
+  background-color: rgb(255 255 255 / 5%);
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+}
+
+.container {
+  background-color: rgb(255 255 255 / 5%);
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.w-33 {
+  width: 33.33%;
+}
+
+.emote {
+  visibility: hidden;
+}
+
+.emote-28 {
+  height: 28px;
+  width: 28px;
+}
+
+.emote-56 {
+  height: 56px;
+  width: 56px;
+}
+
+.emote-112 {
+  height: 112px;
+  width: 112px;
+}
+
+#preview {
+  width: 400px;
+}
+
+#badge {
+  height: 18px;
+  margin-right: 3px;
+}
+
+.username {
+  font-weight: 700;
+  color: #ffbd04;
+}
